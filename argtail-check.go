@@ -1,4 +1,4 @@
-// argtail_check modifies Go code to check for trailing args that otherwise would have been ignored.
+// argtail-check modifies Go code to check for trailing args that otherwise would have been ignored.
 // If the code calls flag.Args() or flag.NArg(), then it's already looking at the extra args, so don't modify those.
 //
 // Copyright 2017 Google Inc.
